@@ -24,13 +24,15 @@
         left: 0;
         margin: auto;
         width: 100%;
-        opacity: 0;
-        transform: rotateZ(30deg);
+        opacity: 1;
+        // transform: rotateZ(30deg);
+        transition: transform 1s ease-in;
+        animation: left-to-right 1s ease-in forwards;
         z-index: 1;
     }
 }
 
-.svg-container{
-    stroke: aquamarine;
-    stroke-width: 10;
-}
+// .svg-container{
+//     stroke: aquamarine;
+//     stroke-width: 10;
+// }
