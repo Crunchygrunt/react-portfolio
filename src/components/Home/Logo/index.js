@@ -32,5 +32,5 @@ const Logo = () => {
         </div>
     )
 }
-//CSV file format
+//SVG file format
 export default Logo
