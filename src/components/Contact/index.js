@@ -3,6 +3,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
+import { MapContainer } from 'react-leaflet'
 
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -81,6 +82,11 @@ const Contact = () => {
                 SRM University <br />
                 Tamil Nadu <br />
                 <span>yuvrajsigh1402@gmail.com</span>
+            </div>
+            <div className='map-wrap'>
+                <MapContainer center={[]}>
+
+                </MapContainer>
             </div>
         </div>
         <Loader type='pacman' />
